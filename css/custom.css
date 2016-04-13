@@ -2,3 +2,10 @@
 body {
   margin-top: 20px;
 }
+
+div #headerImage {
+  height: 500px;
+  background-image: url("../image/background_heverlee.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
