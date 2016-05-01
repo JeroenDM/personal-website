@@ -1,11 +1,70 @@
-
-body {
-  margin-top: 20px;
+aside, header, footer, article{
+	display: block;
 }
-
-div #headerImage {
-  height: 500px;
-  background-image: url("../image/background_heverlee.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
+html, body, h1, h2, p{
+	margin: 0;
+	padding: 0;
+}
+html{
+	background: gray;
+}
+aside {
+	max-width: 300px;
+	border: 1px solid #000;
+	margin-bottom: 20px;
+	font-size: 85%;
+}
+body{
+	font-family: Arial;
+	font-size: 100%;
+	max-width: 40em;
+	background: white;
+	margin: 0 auto;
+}
+article{
+	padding: 0 25px;
+}
+h1, h2{
+	font-family: Georgia;
+	font-size: 1.8em;
+	font-weight: normal;
+	margin-bottom: 1em;
+}
+h2 {
+	font-size: 1.6em;
+}
+p{
+	font-size: 1em;
+	margin-bottom: 1em;
+	line-height: 1.6;
+}
+footer{
+	background: #42403E;
+	padding: 10px 0;
+	color: white;
+	text-align: center;
+}
+header{
+	background: #42403E;
+	color: white;
+	text-align: center;
+	line-height: 75px;
+}
+article h2{
+	color: #7D6855;
+	border-bottom: 1px solid gray;
+}
+aside h2{
+	background: #7D6855;
+	padding: 5px 0;
+	text-align: center;
+	color: white;
+}
+aside p{
+	line-height: 1.2;
+	margin: 0 15px 1em;
+}
+h1 + p, h2 + p{
+	margin-top: .6em;
+	font-style: italic;
 }
