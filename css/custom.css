@@ -8,6 +8,7 @@ html, body, h1, h2, p{
 html{
 	background: url("../image/background_heverlee.jpg");
     background-repeat: round;
+    /*background-color: gray;*/
 }
 aside {
 	max-width: 300px;
@@ -39,16 +40,15 @@ p{
 	margin-bottom: 1em;
 	line-height: 1.6;
 }
-footer{
-	background: #42403E;
-	padding: 10px 0;
-	color: white;
+footer, header{
+    /*background-color: darkslategray;*/
+    /*color: white;*/
 	text-align: center;
 }
+footer{
+	padding: 10px 0;
+}
 header{
-	background: #42403E;
-	color: white;
-	text-align: center;
 	line-height: 75px;
 }
 article h2{
