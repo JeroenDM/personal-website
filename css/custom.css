@@ -6,7 +6,8 @@ html, body, h1, h2, p{
 	padding: 0;
 }
 html{
-	background: gray;
+	background: url("../image/background_heverlee.jpg");
+    background-repeat: round;
 }
 aside {
 	max-width: 300px;
