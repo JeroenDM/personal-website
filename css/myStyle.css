@@ -1,0 +1,158 @@
+* {
+    /* padding and border in box size */
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    align-content: center;
+}
+
+body {
+    font-family: monospace;
+    max-width: 800px;
+    margin: auto;
+}
+
+p {
+   text-indent: 1em; 
+}
+
+/* clearfix from stackoverflow */
+    .container:before,
+    .container:after {
+      content:"";
+      display:table;
+    }
+    .container:after {
+      clear:both;
+    }
+    .container {
+      zoom:1; /* For IE 6/7 (trigger hasLayout) */
+    }
+
+.header {
+    text-align: center;
+    font-size: 1.5em;
+    background-color: cadetblue;
+    color: azure;
+    padding: 1em;
+}
+
+.menubar {
+    background-color: cornflowerblue;
+    /*padding: 10px;*/
+    
+}
+.menubar ul {
+    list-style-type: none;
+}
+
+.menubar li {
+    display: inline;
+}
+
+.menubar a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+}
+
+.menubar a:hover {
+    background-color: cadetblue;
+}
+
+.content {
+    padding: 20px;
+    float: left;
+    width: 70%;
+}
+
+img {
+    width: 100%;
+}
+
+.sidebar {
+    width: 30%;
+    float: left;
+}
+
+.sidebar_item {
+    border: 1px solid cadetblue;
+    color: cadetblue;
+    padding: 10px;
+    margin: 10px;
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    background-color: cadetblue;
+    color: azure;
+    padding: 10px;
+}
+
+/*
+html, body, h1, h2, p{
+	margin: 0;
+	padding: 0;
+}
+html{
+	background: url("../image/background_heverlee.jpg");
+    background-repeat: no-repeat;
+    background-color: gray;
+}
+aside {
+	max-width: 300px;
+	border: 1px solid #000;
+	margin-bottom: 20px;
+	font-size: 85%;
+}
+body{
+	font-family: Arial;
+	font-size: 100%;
+	max-width: 40em;
+	background: white;
+	margin: 0 auto;
+}
+article{
+	padding: 0 25px;
+}
+h1, h2{
+	font-family: Georgia;
+	font-size: 1.8em;
+	font-weight: normal;
+	margin-bottom: 1em;
+}
+h2 {
+	font-size: 1.6em;
+}
+p{
+	font-size: 1em;
+	margin-bottom: 1em;
+	line-height: 1.6;
+}
+footer, header{
+    background-color: darkslategray;
+    color: white;
+	text-align: center;
+}
+footer{
+	padding: 10px 0;
+}
+header{
+	line-height: 75px;
+}
+article h2{
+	color: #7D6855;
+	border-bottom: 1px solid gray;
+}
+aside h2{
+	background: #7D6855;
+	padding: 5px 0;
+	text-align: center;
+	color: white;
+}
+*/

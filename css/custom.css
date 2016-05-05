@@ -1,11 +1,103 @@
-
-body {
-  margin-top: 20px;
+/* general styling */
+aside, header, footer, article{
+	display: block;
 }
 
-div #headerImage {
-  height: 500px;
-  background-image: url("../image/background_heverlee.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
+* {
+    /* padding and border in box size */
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    align-content: center;
+    background-color: lightgray;
+}
+
+body {
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    
+}
+
+/* clearfix from stackoverflow */
+.container:before,
+.container:after {
+  content:"";
+  display:table;
+}
+.container:after {
+  clear:both;
+}
+.container {
+  zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+h2 {
+    color: darkslategray
+}
+
+/* header and menu styling */
+header {
+    text-align: center;
+    font-size: 1.5em;
+    background-color: gray;
+    color: white;
+    padding: 1em;
+}
+
+/* content styling */
+article {
+    padding: 5%;
+    float: left;
+    width: 70%;
+}
+
+article h2 {
+    text-indent: 2em;
+    margin-bottom: 0.5em;
+}
+
+img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+aside {
+    width: 30%;
+    float: left;
+}
+
+aside > h2 {
+    text-align: center;
+    margin: 5%;
+}
+
+.now_item {
+    border: 1px solid gray;
+    margin: 10px;
+    font-family: Georgia;
+}
+
+.now_item h2{
+	background-color: gray;
+	padding: 5px 0;
+	text-align: center;
+	color: white;
+}
+
+.now_item p {
+    margin: 5px;
+    text-align: left;
+}
+
+/* footer styling */
+footer {
+    text-align: center;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    padding: 15px;
 }
