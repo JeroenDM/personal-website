@@ -22,6 +22,10 @@ body {
     
 }
 
+h1 {
+    font-family: monospace;
+}
+
 /* clearfix from stackoverflow */
 .container:before,
 .container:after {
@@ -63,6 +67,16 @@ article h2 {
 img {
     width: 100%;
     margin-top: 10px;
+}
+
+img:after {
+    content: "test some text"
+}
+
+q {
+    display: block;
+    padding: 10px;
+    background-color: lightgrey;
 }
 
 aside {
